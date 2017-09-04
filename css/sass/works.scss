@@ -1,0 +1,134 @@
+@import "var";
+
+@mixin backImg($data){
+	background-image: url($data);
+}
+
+#work{
+	background-image: url("../img/work.png");
+	background-size: 1900px 1200px;
+	background-attachment: fixed;
+	margin: 0;
+	padding: 0;
+}
+
+.work-block{
+	height:  500px;
+	width: 500px;
+	background-color: #FFF;
+	border: .5px solid #C2C2C2;
+	border-radius: 10px;
+	margin: 2em auto;
+	background-size: cover;
+	background-position: -200px 0;
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+
+.work-block:hover{
+	-webkit-filter: brightness(150%);
+	transition: .6s;
+}
+
+#work .btn{
+	margin-bottom: 3em;
+}
+
+.modal{
+	margin-top: 8em;
+}
+
+#work .modal .btn{
+	margin-bottom: 0;
+	border: 1px solid $nvy-dark;
+	color: $nvy-dark
+}
+
+#work .modal .btn:hover{
+	color: white;
+	border-color: $orange;
+}
+
+
+
+
+
+.works, .proyects{
+	height: 100%;
+	//box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	padding: 2em 0;
+}
+
+.works{
+	margin: 4em 0;
+}
+
+#work h1,#work h2{
+	color: white;
+	font-weight: bold;
+}
+
+
+#work .divider{
+	background-color: #FFF;
+	margin-bottom: 3em;
+}
+
+.proyects{
+	overflow: auto;
+}
+
+#tictac{
+	@include backImg("../img/tictac.png");
+
+}
+
+#calc{
+	@include backImg("../img/calc.png");
+}
+
+#weather{
+	@include backImg("../img/weather.png");
+}
+
+#pomodoro{
+	@include backImg("../img/pomodoro.png")
+}
+
+#simon{
+	@include backImg("../img/simon.png")
+}
+
+#echo{
+	@include backImg("../img/echo.png");
+	background-position: 0px;
+	background-size: 1200px;
+
+}
+
+#twitch{
+	@include backImg("../img/twitch.png");
+}
+
+#quote{
+	@include backImg("../img/quote.png")
+}
+
+
+h2{
+	color:  $orange;
+}
+
+
+#work h1{
+	font-size: 4em;
+}
+
+
+@media only screen and (max-width: 600px){
+	.work-block{
+		height: 300px;
+		width: 300px;
+		background-position: -120px 0;
+	}
+}

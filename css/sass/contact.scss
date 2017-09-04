@@ -1,0 +1,118 @@
+@import "var";
+
+@mixin mediaHoverTwo($fondo){
+	color: white;
+	background-color: $fondo; 
+	transition: 300ms ease-in-out;
+	border-color: $fondo;
+
+}
+
+h1{
+	color: $orange;
+}
+
+#contact h2{
+	color: $nvy-dark;
+}
+
+
+#contact .work-block2{
+	border: 2px solid $teal;
+	height: 200px;
+	width: 200px;
+	margin: 1em auto;
+	border-radius: 15px;
+	cursor: pointer;
+}
+
+#contact{
+	margin: 4em 0 !important;
+}
+
+#contact i{
+	font-size: 8em !important;
+	color: $teal;
+	line-height: 200px;
+}
+
+#contact .container{
+	width: 90% !important;
+}
+
+#contact .work-block2#tuit:hover{
+	@include  mediaHoverTwo(#55acee);
+	
+}
+
+.work-block2{
+	margin: 0 auto;
+}
+
+.contact-photo{
+	height: 800px;
+	width: 800px;
+	margin: 0 auto;
+	background-image: url("../img/contact2.png");
+	background-size: 1600px 900px;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	border-radius: 10px;
+}
+
+
+.work-block2:hover> i{
+	color: white !important;
+	transition: .3s;
+}
+
+#contact .work-block2#insta:hover{
+	@include  mediaHoverTwo(#cd486b);
+	
+}
+
+#contact .work-block2#git:hover{
+	@include  mediaHoverTwo(#444444);
+	
+}
+
+#contact .work-block2#linked:hover{
+	@include  mediaHoverTwo(#007bb5);
+	
+}
+
+@media only screen and (max-width: 1400px){
+	.contact-photo{
+		height: 800px;
+		width: 600px
+	}
+}
+
+
+@media only screen and (max-width: 1200px){
+	.contact-photo{
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 991px){
+	#contact .work-block2{
+		height: 150px;
+		width: 150px;
+	}
+
+	#contact i{
+		font-size: 6em !important;
+		line-height: 150px;
+	}
+
+
+
+
+}
+
+@media only screen and (max-width: 769px){
+	#contact .work-block2{
+		width: 250px;
+	}
+
+}

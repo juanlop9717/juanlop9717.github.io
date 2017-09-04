@@ -1,0 +1,109 @@
+@import "var";
+
+@mixin barSkill($param){
+	height: 40px;
+	width: $param;
+	background-color: $orange-yellow;
+}
+
+#skills p{
+	font-size: 1.5em !important;
+	margin-bottom: 4em;
+}
+
+#skills h1{
+	font-size: 4em !important;
+}
+
+#skills > .container{
+	margin-bottom: 4em;
+}
+
+.rating-section{
+	border: 1px solid #C2C2C2;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	padding: 2em 0;
+	font-size: 20px;
+}
+
+#skills ul{
+	padding: 0 6em;
+}
+
+.bar{
+	width: 80%;
+	border: 3px solid $nvy-light;
+	height: 40px;
+	overflow: hidden;
+	& #web-design{
+		@include barSkill(90%)
+	}
+	& #web-develop{
+		@include barSkill(100%)
+	}
+	& #html{
+		@include barSkill(90%)
+	}
+	& #responsive{
+		@include barSkill(85%)
+	}
+	& #javascript{
+		@include barSkill(70%);
+	}
+	& #jquery{
+		@include barSkill(65%)
+	}
+	& #vue{
+		@include barSkill(25%);
+	}
+	& #bootstrap{
+		@include barSkill(65%)
+	}
+	& #materialize{
+		@include barSkill(90%);
+	}
+	& #sass{
+		@include barSkill(75%);
+	}
+	& #gulp{
+		@include barSkill(30%);
+	}
+	& #analytics{
+		@include barSkill(55%);
+	}
+	& #github{
+		@include barSkill(60%);
+	}
+	& #photoshop{
+		@include barSkill(70%);
+	}
+}
+
+#skills li{
+	display: block;
+	color: black;
+}
+
+#skills .container{
+	margin-top: 4em;
+}
+
+.img-skills{
+	display: inline-block;
+	margin-right: 1em;
+	height: 60px;
+	width: 60px;
+}
+
+.img-skills#css{
+	width: 100px !important;
+}
+
+
+@media only screen and (max-width: 991px){
+	
+	#skills ul{
+		padding: 0 2em;
+	}
+
+}
