@@ -1,11 +1,11 @@
 $(window).load(function(){
-    $(".loader").hide();
+    alert("epa")
 })
 
 
 $(document).ready(function() {
 
-
+    $(".loader").hide(500);
     // Effects Between Pages Script
     $("body").css("display", "none");
  
