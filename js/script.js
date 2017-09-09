@@ -1,8 +1,3 @@
-$(window).load(function(){
-    alert("epa")
-})
-
-
 $(document).ready(function() {
 
     $(".loader").hide(500);
@@ -35,3 +30,7 @@ $(document).ready(function() {
     })
 
 });
+$(window).load(function(){
+    alert("epa")
+})
+
