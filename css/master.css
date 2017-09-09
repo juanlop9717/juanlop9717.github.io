@@ -697,6 +697,12 @@ footer {
   width: 100%;
   z-index: 101; }
 
+.loader p {
+  color: white;
+  font-weight: bold;
+  color: white;
+  font-size: 2em; }
+
 .sk-circle {
   margin: 20% auto;
   width: 150px;

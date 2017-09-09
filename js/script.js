@@ -1,6 +1,5 @@
 $(document).ready(function() {
 
-
     // Effects Between Pages Script
     $("body").css("display", "none");
  
@@ -31,6 +30,6 @@ $(document).ready(function() {
 
 });
  $(window).on('load', function () {
-     $(".loader").fadeOut(800);
+     $(".loader").fadeOut();
  });
 
