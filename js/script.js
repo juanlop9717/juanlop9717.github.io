@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-    $(".loader").hide(500);
+   
     // Effects Between Pages Script
     $("body").css("display", "none");
  
@@ -30,7 +30,7 @@ $(document).ready(function() {
     })
 
 });
-$(window).load(function(){
-    alert("epa")
-})
+ $(window).on('load', function () {
+       $(".loader").hide(500);
+ });
 
