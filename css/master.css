@@ -41,20 +41,18 @@ a {
   text-decoration: none;
   padding-bottom: 14px; }
 
-a:hover {
-  text-decoration: none;
-  color: #eae374;
-  transition: .4s; }
+.loader {
+  background-color: #005b96;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  z-index: 101; }
 
 h1.logo {
   font-family: 'Yesteryear', cursive;
   font-weight: 100;
   cursor: pointer;
   color: #b3cde0 !important; }
-
-h1.logo:hover {
-  color: #b3cde0 !important;
-  transition: .3s; }
 
 ul {
   margin: 0 auto;
@@ -135,9 +133,14 @@ li {
   color: white !important; }
 
 svg:hover {
-  fill: #fe8181;
-  stroke: #fe8181;
+  fill: #fc913a;
+  stroke: #fc913a;
   transition: .3s; }
+
+svg:hover, a:hover {
+  text-decoration: none;
+  color: #fc913a;
+  transition: .4s; }
 
 @media only screen and (max-width: 1200px) {
   .main-banner .redes {
@@ -508,7 +511,7 @@ nav li {
   #skills ul {
     padding: 0 2em; } }
 #work {
-  background-image: url("../img/work.png");
+  background-image: url("../img/work.jpg");
   background-size: 1900px 1200px;
   background-attachment: fixed;
   margin: 0;
@@ -589,6 +592,10 @@ nav li {
 #quote {
   background-image: url("../img/quote.png"); }
 
+#wiki {
+  background-image: url("../img/wiki.png");
+  background-size: 900px; }
+
 h2 {
   color: #fc913a; }
 
@@ -638,7 +645,7 @@ h1 {
   height: 800px;
   width: 800px;
   margin: 0 auto;
-  background-image: url("../img/contact2.png");
+  background-image: url("../img/contact2.jpg");
   background-size: 1600px 900px;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   border-radius: 10px; }

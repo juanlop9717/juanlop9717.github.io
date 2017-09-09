@@ -65,11 +65,20 @@
 }
 
 svg:hover{
-	fill: $red1;
-  stroke: $red1;
+	fill: $orange;
+  stroke: $orange;
   transition: .3s;
 
 }
+
+
+svg:hover, a:hover{
+	text-decoration: none;
+	color: $orange;
+	transition: .4s;
+}
+
+
 
 @media only screen and (max-width: 1200px){
 	.main-banner .redes{

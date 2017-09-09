@@ -58,10 +58,13 @@ a{
 }
 
 
-a:hover{
-	text-decoration: none;
-	color: $orange-yellow;
-	transition: .4s;
+.loader{
+	background-color: $blue;
+	height: 100%;
+	position: absolute;
+	width: 100%;
+	z-index: 101;
+	
 }
 
 
@@ -75,10 +78,6 @@ h1.logo{
 
 }
 
-h1.logo:hover{
-	color: $sky !important;
-	transition: .3s;
-}
 
 ul{
 	margin: 0 auto;

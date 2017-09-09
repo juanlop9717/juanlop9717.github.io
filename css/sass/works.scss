@@ -5,7 +5,7 @@
 }
 
 #work{
-	background-image: url("../img/work.png");
+	background-image: url("../img/work.jpg");
 	background-size: 1900px 1200px;
 	background-attachment: fixed;
 	margin: 0;
@@ -112,6 +112,12 @@
 
 #quote{
 	@include backImg("../img/quote.png")
+}
+
+#wiki{
+	@include backImg("../img/wiki.png");
+	background-size: 900px;
+
 }
 
 
