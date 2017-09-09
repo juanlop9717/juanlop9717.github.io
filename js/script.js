@@ -1,9 +1,15 @@
+$(window).load(function(){
+    $(".loader").hide();
+})
+
+
 $(document).ready(function() {
+
 
     // Effects Between Pages Script
     $("body").css("display", "none");
  
-    $("body").slideDown(1000);
+    $("body").fadeIn(1000);
  
     $("a").click(function(event){
         event.preventDefault();
@@ -27,8 +33,5 @@ $(document).ready(function() {
     $(".close-btn").click(function(){
         $(".mobile-menu2").hide(500);
     })
-
-
-
 
 });

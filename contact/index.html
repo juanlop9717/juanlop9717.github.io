@@ -8,6 +8,8 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/components/icon.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Nixie+One" rel="stylesheet"> 
 	<link rel="stylesheet" href="../css/animations.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 </head>
 <body class="fadeIn animated">
 	<nav class="hide-on-med-and-down">
@@ -84,26 +86,27 @@
 					<div class="divider"></div>
 					<div class="row">
 						<div class="col-lg-3 col-lg-offset-2  col-sm-3">
-							<div class="work-block2" id="linked">
+							<a href="https://www.linkedin.com/in/juan-lopez-4200a1143/" target="_blank"><div class="work-block2" id="linked">
 								<i class="linkedin icon big"></i>
-							</div>
+							</div></a>
 						</div>
 						<div class="col-lg-3 col-lg-offset-2   col-sm-3">
-							<div class="work-block2 twitter" id="tuit">
+							<a href="https://twitter.com/choncha5" target="_blank"><div class="work-block2 twitter" id="tuit">
 								<i class="twitter icon big"></i>
-							</div>
+							</div></a>
 						</div>
 						<div class="col-lg-3 col-lg-offset-2 col-m col-sm-3" >
-							<div class="work-block2" id="insta">
+							<a href="https://www.instagram.com/chonchass/" target="_blank">
+								<div class="work-block2 twitter" id="tuit">
 								<i class="instagram icon big"></i>
 							</div>
+							</a>
 						</div>
 						<div class="col-lg-3 col-lg-offset-2  col-sm-3">
-							<div class="work-block2" id="git">
+							<a href="https://github.com/juanlop9717" target="_blank"><div class="work-block2" id="git">
 								<i class="github icon big "></i>
-							</div>
+							</div></a>
 						</div>
-
 					</div>
 				</div>
 			</div>
@@ -119,6 +122,16 @@
 			  src="https://code.jquery.com/jquery-3.2.1.min.js"
 			  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
 			  crossorigin="anonymous"></script>
-	<script src="../js/script.js"></script>
+	
+	  <script>
+    	 $("#menu").click(function(){
+        $(".mobile-menu2").slideDown();
+    })
+
+    $(".close-btn").click(function(){
+        $(".mobile-menu2").hide(500);
+    })
+
+    </script> 
 </body>
 </html>
