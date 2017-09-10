@@ -13,33 +13,6 @@
 </head>
 
 <body class="animated fadeIn">
-
-	<div class="loader">
-		<div class="sk-circle">
-		  <div class="sk-circle1 sk-child"></div>
-		  <div class="sk-circle2 sk-child"></div>
-		  <div class="sk-circle3 sk-child"></div>
-		  <div class="sk-circle4 sk-child"></div>
-		  <div class="sk-circle5 sk-child"></div>
-		  <div class="sk-circle6 sk-child"></div>
-		  <div class="sk-circle7 sk-child"></div>
-		  <div class="sk-circle8 sk-child"></div>
-		  <div class="sk-circle9 sk-child"></div>
-		  <div class="sk-circle10 sk-child"></div>
-		  <div class="sk-circle11 sk-child"></div>
-		  <div class="sk-circle12 sk-child"></div>
-		  <br>
-		  <br>
-		  <br>
-		  <br>
-		  <br>
-		  <br>
-		  <br>
-		  <br>
-		  <br>
-		  <p class="text-center">Loading...</p>
-		</div>
-		</div>
 	<nav class="hide-on-med-and-down">
 		<div class="row">
 			<div class="col col-sm-3 col-xs-3 col text-center" id="menu">
@@ -176,7 +149,7 @@
 							</div>
 					</div>
 					<div class="col col-lg-6 col-sm-12">
-						<a href="https://juanlop9717.github.io/TwitchViewer" target="_blank"><div class="work-block" id="twitch"></div></a>
+						<a href="https://juanlop9717.github.io/TwitchViewer" target="_blank"><div class="work-block b-lazy" data-src="../img/twitch.png" id="twitch"></div></a>
 						<div class="text-center">
 							<h2>Twitch Users Viewer</h2>
 						<div class="btn" data-toggle="modal"  data-target="#myModal3">More information</div>
@@ -333,6 +306,7 @@
 			  crossorigin="anonymous"></script>
 	 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
 	<script src="../js/bootstrap.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/blazy@1.8.2/blazy.min.js"></script>
     <script>
     	 $("#menu").click(function(){
         $(".mobile-menu2").slideDown();
@@ -341,12 +315,6 @@
     $(".close-btn").click(function(){
         $(".mobile-menu2").hide(500);
     });
-
-     $(window).on('load', function () {
-     $(".loader").fadeOut(200);
- });
-
-
     </script> 
 </body>
 </html>
