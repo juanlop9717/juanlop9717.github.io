@@ -37,8 +37,8 @@ p, h1, h2 {
   font-weight: lighter; }
 
 a {
-  color: white;
-  text-decoration: none;
+  color: white !important;
+  text-decoration: none !important;
   padding-bottom: 14px; }
 
 h1.logo {
@@ -60,8 +60,8 @@ ul li {
   color: white; }
 
 svg {
-  height: 260px;
-  width: 260px;
+  height: 230px;
+  width: 230px;
   fill: #C2C2C2;
   stroke: #C2C2C2;
   stroke-width: 9;
@@ -79,9 +79,12 @@ i.fa {
 li {
   display: inline-block; }
 
+body {
+  height: 100vh; }
+
 .main-banner {
   background-image: url("../img/background.png");
-  height: 100vh;
+  height: 110vh;
   background-size: 2200px 1200px;
   background-repeat: no-repeat; }
 
@@ -109,9 +112,14 @@ li {
   margin-left: -.5em;
   margin-top: -1em; }
 
+.hexagon p {
+  font-size: 2em;
+  margin-top: -1em;
+  display: inline-block; }
+
 .hexagon-down span {
   width: 250px;
-  margin: 0 .2em;
+  margin: 0 -.3em;
   display: inline-block;
   font-size: 2em;
   font-weight: bold; }
@@ -130,17 +138,12 @@ svg:hover {
   stroke: #fc913a;
   transition: .3s; }
 
-svg:hover, a:hover {
-  text-decoration: none;
-  color: #fc913a;
-  transition: .4s; }
-
 @media only screen and (max-width: 1200px) {
   .main-banner .redes {
     display: none; }
 
   .hexagon-down span {
-    margin: 0 -1em; }
+    margin: 0 -.3em; }
 
   .main-banner {
     height: 100%;

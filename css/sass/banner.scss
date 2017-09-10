@@ -1,8 +1,12 @@
 @import 'var';
 
+body{
+	height: 100vh;
+}
+
 .main-banner{
 	background-image: url("../img/background.png");
-	height: 100vh;
+	height: 110vh;
 	background-size: 2200px 1200px;
 	background-repeat: no-repeat;
 }
@@ -43,9 +47,16 @@
 
 	}
 
+.hexagon p{
+	font-size: 2em;
+	margin-top: -1em;
+	display: inline-block;
+
+}
+
 .hexagon-down span{
 		width: 250px;
-		margin: 0 .2em;
+		margin: 0 -.3em;
 		display: inline-block;
 		font-size: 2em;
 		font-weight: bold;
@@ -72,20 +83,13 @@ svg:hover{
 }
 
 
-svg:hover, a:hover{
-	text-decoration: none;
-	color: $orange;
-	transition: .4s;
-}
-
-
 
 @media only screen and (max-width: 1200px){
 	.main-banner .redes{
 		display: none;
 	}
 	.hexagon-down span{
-		margin: 0 -1em;
+		margin: 0 -.3em;
 	}
 	.main-banner{
 		height: 100%;

@@ -52,15 +52,10 @@ p,  h1 , h2 {
 }
 
 a{
-	color: white;
-	text-decoration: none;
+	color: white !important;
+	text-decoration: none !important;
 	padding-bottom: 14px;
 }
-
-
-
-
-
 
 h1.logo{
     
@@ -90,8 +85,8 @@ ul li{
 }
   
 svg{
-	height: 260px;
-	width: 260px;
+	height: 230px;
+	width: 230px;
 	fill: #C2C2C2;
   stroke: #C2C2C2;
   stroke-width: 9;

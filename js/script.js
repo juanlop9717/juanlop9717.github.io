@@ -16,7 +16,14 @@ $(document).ready(function() {
     }
 
     // Hover Script
-
+    $( "svg" ).hover(
+      function() {
+        $( this ).addClass( "hover-orange" );
+        $("#aboutId1").addClass("hover-orange");
+      }, function() {
+        $( this ).removeClass( "hover-orange" );
+      }
+    );
 
     // Menu 
 
