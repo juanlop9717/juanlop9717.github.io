@@ -239,8 +239,8 @@ main#about {
   padding-bottom: 40%;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
   .personal-description img {
-    width: 200px;
-    height: 200px;
+    width: 165px;
+    height: 165px;
     margin-bottom: 2em; }
   .personal-description p {
     color: #666666; }
@@ -323,22 +323,22 @@ nav i.icon {
   padding-top: 25px !important; }
 
 .redes a#twitter:hover {
-  color: #55acee;
+  color: #55acee !important;
   border-color: #55acee;
   transition: 300ms ease-in-out; }
 
 .redes a#linkedin:hover {
-  color: #007bb5;
+  color: #007bb5 !important;
   border-color: #007bb5;
   transition: 300ms ease-in-out; }
 
 .redes a#github:hover {
-  color: #444444;
+  color: #444444 !important;
   border-color: #444444;
   transition: 300ms ease-in-out; }
 
 .redes a#instagram:hover {
-  color: #e95950;
+  color: #e95950 !important;
   border-color: #e95950;
   transition: 300ms ease-in-out; }
 

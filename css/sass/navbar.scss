@@ -2,7 +2,7 @@
 
 
 @mixin mediaHover($ele){
-	color: $ele;
+	color: $ele !important;
 	border-color: $ele;
 	transition: 300ms ease-in-out;
 
