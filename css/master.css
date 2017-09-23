@@ -80,8 +80,7 @@ li {
   display: inline-block; }
 
 body {
-  height: 100vh;
-  font-size: 1em; }
+  height: 100vh; }
 
 .main-banner {
   background-image: url("../img/background.png");

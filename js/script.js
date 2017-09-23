@@ -24,12 +24,7 @@ $(document).ready(function() {
     console.log(windowsList.indexOf(navigator.platform));
 
     if(windowsList.indexOf(navigator.platform)>-1){
-        alert("Estamos en windows");
-        $("#body").css("font-size", "1.2em")
-    }
-
-    else{
-        alert("No estamos en windows");
+        $(".main-banner").css("font-size", ".8em")
     }
 
     // Hover Script
