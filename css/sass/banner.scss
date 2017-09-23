@@ -2,7 +2,10 @@
 
 body{
 	height: 100vh;
+	font-size: 1em;
 }
+
+
 
 .main-banner{
 	background-image: url("../img/background.png");
@@ -85,6 +88,9 @@ svg:hover{
 
 
 @media only screen and (max-width: 1200px){
+	ul{
+		padding: 0 6em;
+	}
 	.main-banner .redes{
 		display: none;
 	}
@@ -128,6 +134,13 @@ svg:hover{
 @media only screen and (max-width: 655px){
 	svg{
 		margin-right: -4em;
+	}
+	.main-banner h1{
+		font-size: 5em !important;
+	}
+	.main-banner ul img{
+	height: 80px;
+	width: 80px;
 	}
 	svg#svg1{
 		margin-left: -3em;

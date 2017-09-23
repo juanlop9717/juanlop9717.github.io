@@ -15,6 +15,23 @@ $(document).ready(function() {
         window.location = linkLocation;
     }
 
+    
+
+    // Detect Browser
+
+    var windowsList = ['Pocket PC', 'Windows', 'Win16', 'Win32', 'WinCE'];
+
+    console.log(windowsList.indexOf(navigator.platform));
+
+    if(windowsList.indexOf(navigator.platform)>-1){
+        alert("Estamos en windows");
+        $("#body").css("font-size", "1.2em")
+    }
+
+    else{
+        alert("No estamos en windows");
+    }
+
     // Hover Script
     $( "svg" ).hover(
       function() {
