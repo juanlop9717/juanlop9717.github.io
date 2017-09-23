@@ -109,3 +109,11 @@ li{
 }
 
 
+@media only screen and (max-width: 1600px){
+	ul.main-ul{
+		width: 120% !important;
+	}
+	div.contact-photo{
+		width: 650px;
+	}
+}
