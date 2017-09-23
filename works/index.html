@@ -146,14 +146,13 @@
 						<a href="https://juanlop9717.github.io/TwitchViewer" target="_blank"><div class="work-block b-lazy" data-src="../img/twitch.png" id="twitch"></div></a>
 						<div class="text-center">
 							<h2>Twitch Users Viewer</h2>
-						<div class="btn" data-toggle="modal"  data-target="#myModal3">More information</div>
+						<a href="javascript:void(0)" class="btn" data-toggle="modal"  data-target="#myModal3">More information</a>
 						<div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
 		                          <div class="modal-dialog" role="document">
 		                             <div class="modal-content">
 		                                  <div class="modal-header">
 		                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-		                                    <h4 class="modal-title" id="myModalLabel">Tic Tac Toe
-		                                    </h4>
+		                                    <h4 class="modal-title" id="myModalLabel">Twitch User Viewers
 		                                  </div>
 		                                  <div class="modal-body">
 		                                      <p>Twitch Users Viewers is a project from FreeCodeCamp. The proyect  show a list of users of Twitch and it shows if they are offline or online through the twitch API. </p>
@@ -242,8 +241,8 @@
 						<a href="https://juanlop9717.github.io/RandomQuote" target="_blank"><div class="work-block" id="quote"></div></a>
 							<div class="text-center">
 								<h2>Random Quote Generator</h2>
-							<div class="btn" data-toggle="modal"  data-target="#myModal6">More information</div>
-								<div class="modal fade" id="myModal6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+							<div class="btn" data-toggle="modal"  data-target="#myModal8">More information</div>
+								<div class="modal fade" id="myModal8" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
 				                          <div class="modal-dialog" role="document">
 				                             <div class="modal-content">
 				                                  <div class="modal-header">
@@ -252,7 +251,7 @@
 				                                    </h4>
 				                                  </div>
 				                                  <div class="modal-body">
-				                                      <p>The original Simon Game online. begins with 4 buttons that you have to memorize in the game the order of the lights that will show every turn.</p>
+				                                      <p>Display a random quote from a list of famous quotes by important people.</p>
 				                                  </div>
 				                                  <div class="modal-footer">
 				                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -272,7 +271,7 @@
 				                             <div class="modal-content">
 				                                  <div class="modal-header">
 				                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-				                                    <h4 class="modal-title" id="myModalLabel">Random Quote Generator
+				                                    <h4 class="modal-title" id="myModalLabel">Wikipedia Viewer
 				                                    </h4>
 				                                  </div>
 				                                  <div class="modal-body">
@@ -314,6 +313,9 @@
     $(".close-btn").click(function(){
         $(".mobile-menu2").hide(500);
     });
+    $(".btn").click(function($e){
+    	$e.preventDefault();
+    })
     </script> 
 </body>
 </html>

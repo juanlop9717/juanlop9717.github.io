@@ -516,6 +516,9 @@ nav li {
 @media only screen and (max-width: 991px) {
   #skills ul {
     padding: 0 2em; } }
+body.modal-open {
+  overflow: visible; }
+
 #work {
   background-image: url("../img/work.jpg");
   background-size: 1900px 1200px;

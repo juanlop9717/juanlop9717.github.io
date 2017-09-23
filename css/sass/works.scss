@@ -4,6 +4,10 @@
 	background-image: url($data);
 }
 
+ body.modal-open {
+    overflow: visible;
+}
+
 #work{
 	background-image: url("../img/work.jpg");
 	background-size: 1900px 1200px;
