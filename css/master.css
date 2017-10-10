@@ -444,6 +444,9 @@ nav li {
 @media only screen and (max-width: 1600px) {
   ul.main-ul {
     width: 140%; } }
+main {
+  margin-bottom: 4em; }
+
 main .container {
   text-align: center; }
 
@@ -456,7 +459,8 @@ main .row {
 
 .flex-skill-letra {
   display: flex;
-  justify-content: space-around; }
+  justify-content: space-around;
+  margin-top: 2em; }
 
 .intro {
   font-size: 2em; }
