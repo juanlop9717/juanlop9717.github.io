@@ -1,5 +1,50 @@
 @import "var";
 
+
+main .container{
+	text-align: center;
+}
+
+main .row{
+	margin-top: 4em;
+}
+
+.flex-skill{
+	display: flex;
+	justify-content: space-evenly;
+}
+.flex-skill-letra{
+	display: flex;
+	justify-content: space-around;
+}
+
+.intro{
+	font-size: 2em;
+	& h1{
+		font-size: 2em;
+	}
+}
+
+main h3{
+	color: $red2;
+	font-weight: bold; 
+}
+
+
+.skill-box{
+	height: 300px;
+	margin: 2em auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #ECF0F1;
+}
+
+.skill-box:hover{
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	transition: .4s;
+}
+
 @mixin barSkill($param){
 	height: 40px;
 	width: $param;
@@ -89,10 +134,12 @@
 }
 
 .img-skills{
-	display: inline-block;
-	margin-right: 1em;
-	height: 60px;
-	width: 60px;
+	height: 70%;
+	width: 60%;
+}
+
+#nodejs{
+	width: 100%;
 }
 
 .img-skills#css{
