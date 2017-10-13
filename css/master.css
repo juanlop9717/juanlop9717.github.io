@@ -254,7 +254,7 @@ body {
   font-family: 'Quicksand', sans-serif; }
 
 main#about {
-  margin-top: 0 !important; }
+  margin-top: -4em !important; }
 
 .container-personal img {
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); }
@@ -448,9 +448,6 @@ nav li {
 @media only screen and (max-width: 1600px) {
   ul.main-ul {
     width: 140%; } }
-main {
-  margin-bottom: 4em; }
-
 main .container {
   text-align: center; }
 
