@@ -113,6 +113,10 @@ ul.main-ul {
 body {
   height: 100vh; }
 
+@media only screen and (max-height: 800px) {
+  .main-banner {
+    height: auto !important;
+    padding-bottom: 4em; } }
 .main-banner {
   background-image: url("../img/background.png");
   height: 120vh;
